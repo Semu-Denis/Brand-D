@@ -28,13 +28,42 @@
   </header>
 
   <main id="main">
-    <section class="page-hero placeholder">
+    <section class="page-hero">
       <div class="container">
+        <span class="kicker">Say hello</span>
         <h1>Contact Us</h1>
-        <p>We are based in Moshi, Tanzania.</p>
+        <p class="muted">We are based in Moshi, Tanzania. We'd love to hear from you.</p>
       </div>
     </section>
-    <!-- Contact form and location will be added in subsequent steps -->
+
+    <section class="section">
+      <div class="container grid grid-2">
+        <div class="reveal">
+          <h2>Send a Message</h2>
+          <form class="form simple-form">
+            <div class="form-row">
+              <input class="input" type="text" name="name" placeholder="Full name" required />
+              <input class="input" type="email" name="email" placeholder="Email address" required />
+            </div>
+            <input class="input" type="text" name="subject" placeholder="Subject" />
+            <textarea class="input textarea" name="message" placeholder="Write your message" required></textarea>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </form>
+        </div>
+        <div class="reveal">
+          <h2>Our Location</h2>
+          <p class="muted">Moshi, Kilimanjaro Region, Tanzania</p>
+          <div class="shadow" style="overflow:hidden;">
+            <iframe title="Moshi, Tanzania Map" src="https://www.google.com/maps?q=Moshi%2C%20Tanzania&output=embed" width="100%" height="300" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="stack-lg" style="margin-top: 18px;">
+            <p><strong>Email:</strong> hello@passionatekidsconnect.org</p>
+            <p><strong>Phone:</strong> +255 700 000 000</p>
+            <p><strong>Hours:</strong> Mon–Fri, 9:00–17:00 EAT</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">

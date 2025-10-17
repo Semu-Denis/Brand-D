@@ -28,13 +28,76 @@
   </header>
 
   <main id="main">
-    <section class="page-hero placeholder">
+    <section class="page-hero">
       <div class="container">
+        <span class="kicker">Take action</span>
         <h1>Get Involved</h1>
-        <p>Donate, volunteer, or partner to make a difference.</p>
+        <p class="muted">Your support helps children learn, grow, and dream beyond limits.</p>
       </div>
     </section>
-    <!-- Ways to help will be added in subsequent steps -->
+
+    <section class="section">
+      <div class="container grid grid-3">
+        <article class="card reveal">
+          <div class="card-media" style="background-image:url('https://source.unsplash.com/800x450/?donation,charity');"></div>
+          <div class="card-body">
+            <h3 class="card-title">Donate</h3>
+            <p class="card-text">Financial gifts fund scholarships, meals, healthcare, and safe spaces.</p>
+            <a class="btn btn-primary" href="#donate">Give Now</a>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="card-media" style="background-image:url('https://source.unsplash.com/800x450/?volunteer,community');"></div>
+          <div class="card-body">
+            <h3 class="card-title">Volunteer</h3>
+            <p class="card-text">Offer your time or skills in tutoring, mentorship, or events.</p>
+            <a class="btn btn-secondary" href="#volunteer">Sign Up</a>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="card-media" style="background-image:url('https://source.unsplash.com/800x450/?partnership,handshake');"></div>
+          <div class="card-body">
+            <h3 class="card-title">Partner</h3>
+            <p class="card-text">Join as a school, clinic, or organization to expand impact.</p>
+            <a class="btn btn-outline" href="#partner">Contact Us</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="donate" class="section section-compact">
+      <div class="container reveal">
+        <h2>Donate</h2>
+        <p class="muted">Choose a giving amount and help today. (Demo only)</p>
+        <div class="grid grid-3" style="margin-top: 16px;">
+          <button class="btn btn-outline">$10</button>
+          <button class="btn btn-outline">$25</button>
+          <button class="btn btn-outline">$50</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="volunteer" class="section">
+      <div class="container">
+        <h2>Volunteer Sign Up</h2>
+        <form class="form simple-form reveal">
+          <div class="form-row">
+            <input class="input" type="text" name="name" placeholder="Full name" required />
+            <input class="input" type="email" name="email" placeholder="Email address" required />
+          </div>
+          <textarea class="input textarea" name="interests" placeholder="How would you like to help?" required></textarea>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="partner" class="section section-compact">
+      <div class="container">
+        <h2>Partnerships</h2>
+        <p class="muted">Schools, clinics, NGOs, and businesses—let's work together for children.</p>
+        <a class="btn btn-primary" href="contact.html">Contact Our Team</a>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
